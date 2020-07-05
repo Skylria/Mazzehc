@@ -54,6 +54,12 @@ p {
     font-size: 35px;
 }
 
+a.nav-link:hover{
+    background-image: url("img/link_background.png");
+    background-position: center;
+    background-size: cover;
+}
+
 img.centralized {
     display: block;
     padding-top: 200px;
@@ -68,4 +74,14 @@ img.centralized {
     padding-top: 20px;
     color: white;
     text-align: justify;
+}
+
+#merchan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/capa_cd_escala_cinza.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    margin: 50px 100px 50px 100px;
 }
